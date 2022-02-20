@@ -1,0 +1,115 @@
+html{
+  font-size: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+header{
+  background-color: #505050ff;
+  color: #fff;
+  font-size: 1.66rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header h1{
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+header img{
+  width: 5%;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li:nth-child(5){
+  border-right: 3px solid black;
+}
+
+nav ul li{
+  border-left: 3px solid black;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+nav ul li img{
+  width: 3%;
+}
+
+nav ul li:hover{
+  background-color: #00bfffff;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper{
+  background-color: black;
+}
+
+#primary{
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #505050ff;
+}
+
+#primary h2{
+  border-bottom: 3px solid #00bfffff;
+}
+
+#secondary{
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #505050ff;
+}
+
+#secondary h2{
+  border-bottom: 3px solid #00bfffff;
+}
+
+#secondary ul{
+  list-style-type: none;
+}
+
+#secondary ul li{
+  padding: 1rem 1rem 1rem 1rem;
+  border-top: 3px solid black;
+}
+
+#secondary ul li img{
+  width: 8%;
+}
+
+#secondary ul li:nth-child(3) {
+  border-bottom: 3px solid black;
+}
+
+#secondary ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #505050ff;
+  color: #fff;
+  font-size: 1.66rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer img{
+  width: 5%;
+}
