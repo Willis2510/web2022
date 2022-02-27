@@ -11,11 +11,15 @@ body{
 }
 
 header{
+  height: 118px;
+  display: flex;
+  flex: 2;
   background-color: #505050ff;
   color: #fff;
   font-size: 1.66rem;
   text-transform: uppercase;
   font-weight: bold;
+  border-bottom: 25px solid black;
 }
 
 header h1{
@@ -23,10 +27,13 @@ header h1{
 }
 
 header img{
-  width: 5%;
+  padding: 1rem 0rem 1rem 0rem;
+  width: 8%;
+  height: 80%
 }
 
 nav ul{
+  display: flex;
   list-style-type: none;
 }
 
@@ -35,12 +42,14 @@ nav ul li:nth-child(5){
 }
 
 nav ul li{
+  text-align: center;
+  width: 12rem;
   border-left: 3px solid black;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
-nav ul li img{
-  width: 3%;
+nav ul li a img{
+  width: 30%;
 }
 
 nav ul li:hover{
@@ -52,13 +61,17 @@ nav ul li a{
   text-decoration: none;
 }
 
-.wrapper{
+.main_content{
   background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #primary{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   background-color: #505050ff;
+  border-left: 25px solid black;
+  border-right: 25px solid black;
 }
 
 #primary h2{
@@ -66,8 +79,9 @@ nav ul li a{
 }
 
 #secondary{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   background-color: #505050ff;
+  border-right: 25px solid black;
 }
 
 #secondary h2{
@@ -79,12 +93,12 @@ nav ul li a{
 }
 
 #secondary ul li{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   border-top: 3px solid black;
 }
 
 #secondary ul li img{
-  width: 8%;
+  width: 17%;
 }
 
 #secondary ul li:nth-child(3) {
@@ -97,12 +111,14 @@ nav ul li a{
 }
 
 footer{
+  height: 125px;
   background-color: #505050ff;
   color: #fff;
   font-size: 1.66rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  border-top: 25px solid black;
 }
 
 footer a{
