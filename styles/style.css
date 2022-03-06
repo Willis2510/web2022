@@ -10,10 +10,10 @@ body{
   color: white;
 }
 
-header{
+nav header{
   height: 118px;
   display: flex;
-  flex: 2;
+  align-items: center;
   background-color: #505050ff;
   color: #fff;
   font-size: 1.66rem;
@@ -22,34 +22,34 @@ header{
   border-bottom: 25px solid black;
 }
 
-header h1{
+nav header h1{
   padding: 1rem 1rem 1rem 2rem;
 }
 
-header img{
+nav header img{
   padding: 1rem 0rem 1rem 0rem;
   width: 8%;
-  height: 80%
+  height: 80%;
 }
 
 nav ul{
   display: flex;
+  position: absolute;
+  right: 0px;
   list-style-type: none;
 }
 
-nav ul li:nth-child(5){
-  border-right: 3px solid black;
-}
-
 nav ul li{
-  text-align: center;
-  width: 12rem;
+  display: flex;
+  height: 45px;
   border-left: 3px solid black;
   padding: 1rem;
 }
 
 nav ul li a img{
-  width: 30%;
+  padding-right: 0.5rem;
+  height: auto;
+  width: 60px;
 }
 
 nav ul li:hover{
@@ -57,8 +57,10 @@ nav ul li:hover{
 }
 
 nav ul li a{
+  display: flex;
   color: white;
   text-decoration: none;
+  align-items: center;
 }
 
 .main_content{
@@ -74,7 +76,7 @@ nav ul li a{
   border-right: 25px solid black;
 }
 
-#primary h2{
+h2{
   border-bottom: 3px solid #00bfffff;
 }
 
@@ -84,21 +86,29 @@ nav ul li a{
   border-right: 25px solid black;
 }
 
-#secondary h2{
-  border-bottom: 3px solid #00bfffff;
-}
-
 #secondary ul{
   list-style-type: none;
 }
 
 #secondary ul li{
+  width: 90%;
   padding: 1rem;
   border-top: 3px solid black;
 }
 
+#secondary ul li a{
+  padding-right: 2rem;
+}
+
 #secondary ul li img{
+  border: 2px solid #00bfffff;
+  vertical-align: middle;
   width: 17%;
+}
+
+#secondary ul li img:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px #000;
 }
 
 #secondary ul li:nth-child(3) {
@@ -111,6 +121,7 @@ nav ul li a{
 }
 
 footer{
+  line-height: 125px;
   height: 125px;
   background-color: #505050ff;
   color: #fff;
@@ -122,10 +133,16 @@ footer{
 }
 
 footer a{
+  padding: 1rem;
   color: white;
   text-decoration: none;
 }
 
 footer img{
-  width: 5%;
+  vertical-align: middle;
+  width: 60px;
+}
+
+#insta{
+  width: 50px;
 }
