@@ -28,8 +28,8 @@ nav header h1{
 
 nav header img{
   padding: 1rem 0rem 1rem 0rem;
-  height: auto;
-  max-width: 100px;
+  max-height: auto;
+  max-width: 85px;
 }
 
 nav ul{
@@ -216,7 +216,8 @@ footer img{
     display: none;
   }
   nav ul li:nth-child(6){
-    font-size: 150%;
+    font-size: 125%;
+    border-left: none;
     display: inline;
   }
   .sidenav {
