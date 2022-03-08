@@ -28,7 +28,7 @@ nav header h1{
 
 nav header img{
   padding: 1rem 0rem 1rem 0rem;
-  max-height: auto;
+  height: auto;
   max-width: 85px;
 }
 
@@ -200,6 +200,9 @@ footer img{
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media only screen and (max-width: 1380px) {
+  nav ul li:hover{
+    background-color: #505050ff;
+  }
   nav ul li:nth-child(1){
     display: none;
   }
