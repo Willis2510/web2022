@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Page</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        border: 2px solid black;
+      }
+
+      caption {
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 5px;
+        background-color: cyan;
+        color: black;
+      }
+
+      thead, tfoot {
+        background-color: #505050ff;
+        color: white;
+        font-weight: bold;
+        border-bottom: 2px solid black;
+      }
+
+      th, td {
+        padding: 5px 10px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .rowhover:hover {
+        background-color: cyan;
+        color: black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <caption>Favorite Videogame Genres</caption>
+      <thead>
+        <tr>
+          <th colspan="2">(By Percentage)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="rowhover">
+          <td>FPS</td>
+          <td class="center">34%</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Racing</td>
+          <td class="center">12%</td>
+        </tr>
+        <tr class="rowhover">
+          <td>RPG</td>
+          <td class="center">8%</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Puzzle</td>
+          <td class="center">4%</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Strategy</td>
+          <td class="center">7%</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Other</td>
+          <td class="center">35%</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+  </body>
+  </html>
