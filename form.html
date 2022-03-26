@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> form </title>
+	</head>
+
+  <style>
+    h1 {
+      font-weight: bold;
+    }
+
+    form label {
+      background-color: yellow;
+      color: blue;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+
+    form input {
+      border: 2px solid green;
+      background-color: #3f3f3f3f;
+      color: black;
+      }
+
+    button {
+      border-radius: 5%;
+      box-shadow: 10px 5px 5px red;
+      }
+
+    textarea {
+      background-color: #3f3f3f3f;
+      color: black;
+    }
+
+</style>
+
+<body>
+	<h1> Fill out the short survey below<br></h1>
+
+	<form action="handle_form.php" method="post">
+		<label for="name">First name: </label><br>
+		<input type="text" name="firstname"><br><br>
+
+		<label for="gender">Gender: </label><br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+
+		<br><label for="hobby">Favorite hobby: </label><br>
+		<textarea name="hobby" row="3" cols="40">
+		</textarea><br>
+		<input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>
