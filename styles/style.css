@@ -93,7 +93,11 @@ h2{
 
 #secondary table img{
   text-align: center;
+<<<<<<< HEAD
   max-width: 100px;
+=======
+  max-width: 50%;
+>>>>>>> ae7373ff7c7e941324bf215444ff51724aeb51d2
 }
 
 #secondary table img:hover{
