@@ -7,13 +7,7 @@
         document.getElementById("mySidenav").style.width = "0";
       }
 
-      // Start dark mode if it's after 6:59:59pm
-      if (new Date().getHours() < 18) {
-        //alert(new Date().getHours());
-        //const wrapperBody = document.getElementsByClassName('main_content');
-        //main_content.style.backgroundColor = 'grey';
-        //main_content.style.color = 'black';
-      }
+      // Start light mode if it's before 6pm
 
       if (new Date().getHours() < 18) {
         const primaryBody = document.getElementById('primary');
