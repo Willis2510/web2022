@@ -262,6 +262,9 @@ footer img{
     border-left: 25px solid black;
     border-right: 25px solid black;
   }
+  #secondary table img{
+    max-width: 130px;
+  }
   footer a{
     padding: 0rem;
   }
